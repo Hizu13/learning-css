@@ -1,0 +1,104 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    margin: 0px;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+#page-logo{
+
+}
+#page-logo a{
+    padding: 10px;
+    color: #f3f2a1;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 3px 2px #000;
+}
+nav{
+    display: flex;
+    align-items:center;
+}
+nav ul{
+    
+    list-style-type: none;
+    display: flex;
+    
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #c0d747;
+}
+#ha{
+    background-image: url('../images/image.png');
+    
+    background-position: center;
+    background-size: cover;
+}
+#hero{
+    height: 800px;
+    /* position:absolute; */
+}
+#hero-content{
+    text-align: center;
+    background-color: rgba(64,74,73,0.8);
+    border-radius: 3%;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    width: 900px;
+}
+#hero-content a{
+    background-color: #fffc01;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4%;
+    margin: 1.5rem;
+}
+#hero-content h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+}
+#hero-content p{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#highlights{
+    text-align: center;
+    background-color: #cef5f2;
+    margin: 24px 0px;
+    text-transform: uppercase;
+}
+#highlights ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;   
+}
+.place{
+    width: 90%;
+}
+section img{
+    width: 50%;
+
+}
+section strong{
+    color: green;
+}
